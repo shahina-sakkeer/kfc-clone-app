@@ -1,0 +1,376 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.location{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    align-items: baseline;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    width: 100%;
+    padding-top: 8px;
+    z-index: 2;
+}
+
+.location p{
+    font-family: 'Nunito', sans-serif;
+    font-weight: normal;
+    font-weight: lighter;
+    font-size: 14px;
+}
+
+.location button{
+    font-family: 'Nunito', sans-serif;
+    font-weight: normal;
+    
+}
+.location .horizondal-line{
+    width: 100%;
+    background-color: rgb(206, 199, 199);
+    height: 1px;
+    opacity: unset;
+    margin-top: -12px;
+}
+
+nav{
+    padding: 70px;
+    display: flex;
+    justify-content: center;
+    height: 25vh;
+    width: 100%; 
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    background: white;   
+}
+
+.navigator{
+    display: flex;
+    position: fixed;
+    padding-right: 100vh;
+    justify-content: space-evenly;
+}
+
+.navigator img{
+    width: 100px;
+    height: 100px;
+    margin-left: -150px;
+    margin-top: -20px;
+    justify-content: space-between;
+    
+}
+
+.navigator h3{
+    padding: 0 20px;
+    font-size: 15px;
+    margin-top: 20px;
+    font-weight: bold;
+    font-family: 'Nunito', sans-serif;
+}
+
+.profile{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    margin-top: 20px;
+    margin-left: 100vh;
+    position: fixed;
+}
+
+.profile i{
+    margin-bottom: 5px;
+    padding-left: 50px;
+}
+
+.profile h5{
+    padding: 0 20px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;   
+    font-weight: 700; 
+}
+
+.profile p{
+    padding: 0 20px;
+    margin-top: -2.5px;
+    font-weight: 500;
+}
+
+.profile img{
+    padding-right: -10px;
+    width: 50px;
+    height: 50px;
+    margin-top: -15px; 
+} 
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    height: 65px;
+    width: 100%;
+    flex-direction: column;
+    margin-top: 25vh;
+}
+
+.navbar-content{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.navbar p{
+    color: white;
+    font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-stretch: condensed;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.navbar button{
+    padding-top: -20px;
+    background-color: red;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+    margin-top: 2px;
+    
+}
+
+.main img{
+    width: 100%;
+}
+
+.categories{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20px;
+}
+
+.categories .line {
+    height: 2px;
+    background-color: rgb(206, 199, 199);
+    height: 1px;
+    opacity: unset;
+    width: 620px;
+    margin-right: 10vh;
+}
+
+.categories p {
+    margin-left: -12vh;
+    margin-top: 10px;
+    padding: 100px;
+    font-stretch: condensed;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.browser-card{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    margin: 130px;
+    margin-top: -25px;
+}
+
+.browser-card .card{
+    align-items: center;
+    width: 100%;
+    border-style: hidden;
+    background-color: rgb(238, 232, 225);
+}
+
+.card-img-top{
+    width: 50%;
+    height: auto;
+}
+
+.browser-card .card h3{
+    font-size: 17px;
+    padding: 19px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    font-stretch: condensed;
+}
+
+.exclusive{
+    background-color: black;
+    padding-left: 206px;
+    margin-top: -20px;
+}
+
+.three-bars{
+    display: flex;
+    padding-bottom: 30px;
+}
+
+.red-bar{
+    height: 41px;
+    width: 16px;
+    background-color: red;
+    margin-right: 20px;
+}
+
+.exclusive h4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 10px;
+    font-weight: bold;
+    font-size: 40px;
+    font-stretch: condensed;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+.offer{
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    gap: 40px;
+    margin-top: 25px;
+}
+
+.offer .card{
+    width: 300px;
+    height: 390px;
+    display: flex;
+    flex-direction: column;
+}
+
+.offer .card img{
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.offer .card .card-title{
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-stretch: ultra-condensed;
+    color: rgb(228, 0, 43);
+    text-align: center;
+    font-size: 37px;
+    margin-top: -15px;
+}
+
+.offer .card .card-text{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-stretch: semi-condensed;
+    font-weight: lighter;
+    font-size: 13.2px;
+    margin-top: -10px;
+}
+
+.offer .card .card-description{
+    padding-bottom: 25px;
+}
+
+.offer .card-link{
+    text-decoration: underline;
+    color: rgb(63, 59, 59);
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.offer button{
+    margin-left: 40px;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.custom-button{
+    width: 150px;
+}
+
+.exclusive .head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.exclusive .head p{
+    color: white;
+    font-size: 14px;
+    margin-right: 25vh;
+    font-stretch: condensed;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.arrow{
+    width:29px;
+    height: 29px;
+}
+
+.exclusive .footer{
+    display: flex;
+    gap: 5px;
+    font-size: 14px;
+    font-stretch: condensed;
+    padding-top: 150px; 
+    color: white;
+    line-height: 15px;
+}
+
+.footer .list{
+    padding-left: 20px;
+}
+
+.footer .list a{
+    text-decoration: underline;
+    color: white;
+    margin-top: -15px;
+}
+
+.footer .list-first img{
+    width: 120px;
+    height: 70px;
+    margin-left: -100px;
+}
+
+.footer .list .img-one{
+    width: 130px;
+    height: 55px;
+    margin-top: -15px;
+    margin-left: 20px;
+}
+
+.footer .list .img-two{
+    width: 150px;
+    height: 130px;
+    margin-top: -53px;
+}
+
+.exclusive .footer-2{
+    font-size: 12px;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding: 120px;
+    padding-bottom: 10px;
+    padding-right: 50px;
+    margin-left: 20vh;
+}
+
+.exclusive .footer-2 .logos{
+    display: flex;
+    gap: 10px;
+    margin-left: 200px;
+}
+
+.exclusive .footer-2 img{
+    width: 25px;
+    height: 25px;
+    border: 2px solid grey;
+    border-radius: 50%;    
+}
